@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="icon" type="image/x-icon" href="../Media/onlysheesh_logo.png">
+        <link href="../Media/circle-logo.png" rel="apple-touch-icon">
+        <link rel="stylesheet" href="../CSS/style-workout-on.css">
+        <title>OnlySheesh</title>
+    </head>
+    <body>
+
+        <section class="oversize">
+            <a href="" class="over">Open on Mobile &#128241;</a>
+        </section>
+
+        <section class="showcase">
+
+            <header>
+                <div class="toggle"><p class="tasto">Workout</p></div>
+            </header>
+            <section class="workout">
+
+                <div class="timer"><h1 id="result"><time id="cron">00:00:00</time></h1></div>
+
+                <div id="container" class="scroll-exercise">
+
+                    <div id="slidebox1" class="slidebox">
+                        <div class="vid-box">
+                            <video src="../Media/push.mp4" muted loop autoplay playsinline></video>
+                        </div>
+                        <div class="text">
+                            <div class="divtxt0">
+                                <h1>Push-Up</h1>
+                                <h2>20 Reps</h2>
+                            </div>
+                            <button id="slideRight" class="toggle1" type="button">Next</button>
+                        </div>
+                    </div>
+
+                    <div id="slidebox2" class="slidebox">
+                        <div class="vid-box">
+                            <video src="../Media/push.mp4" muted loop autoplay playsinline></video>
+                        </div>
+                        <div class="text">
+                            <div class="divtxt0">
+                                <h1>Triceps Exstension</h1>
+                                <h2>12 Sec</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="slidebox2" class="slidebox">
+                        <div class="vid-box">
+                            <video src="../Media/push.mp4" muted loop autoplay playsinline></video>
+                        </div>
+                        <div class="text">
+                            <div class="divtxt0">
+                                <h1>Wide Push-Up</h1>
+                                <h2>10 Reps</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="slidebox2" class="slidebox">
+                        <div class="vid-box">
+                            <video src="../Media/push.mp4" muted loop autoplay playsinline></video>
+                        </div>
+                        <div class="text">
+                            <div class="divtxt0">
+                                <h1>Diamond Push-up</h1>
+                                <h2>15 Reps</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="slidebox2" class="slidebox">
+                        <div class="vid-box">
+                            <video src="../Media/push.mp4" muted loop autoplay playsinline></video>
+                        </div>
+                        <div class="text">
+                            <div class="divtxt0">
+                                <h1>Archer Push-Up</h1>
+                                <h2>8 Reps</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+            </section>
+
+        </section>
+
+        <section id="pass1" class="pass">
+
+            <div class="Container1">
+                <h1>Access to the private workout of ...</h1>
+                <div class="Container2">
+                    <input id="passwordBox" placeholder="Password" type="password" onkeydown="if (event.keyCode == 13) document.getElementById('opn').click()"/>
+                    <div id="myBtn" class="opn" type="button" onclick="if (document.getElementById('passwordBox').value == 'PASSWORD') { 
+                        document.getElementById('pass1').classList.toggle('hide');   document.getElementById('pass1').style.display='none'; } 
+                        else {  alert('Invalid Password!'); password.setSelectionRange(0, password.value.length);   } ">Open</div>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="menu">
+
+            <div class="only-logo">
+                <a href="../Home.html">
+                    <img src="../Media/onlysheesh_logo.png" alt="Onlysheesh logo" width="25px">
+                </a>
+            </div>
+            
+            <!--Menu Workout completo-->
+
+            <ul class="menus">
+                <li><div>
+
+                    <div id="text-cont1" class="text-cont">
+                        <h1>Push Up Workout</h1>
+                    </div>
+
+                    </div>
+                </li>
+
+                <li><div>
+
+                    <div class="text-cont">
+                        <h1>Push-Up</h1>
+                        <h2>20 Reps</h2>
+                    </div>
+                    
+                    </div>
+                </li>
+
+                <li><div>
+
+                    <div class="text-cont">
+                        <h1>Triceps Extension</h1>
+                        <h2>12 Sec</h2>
+                    </div>
+                    
+                    </div>
+                </li>
+
+                <li><div>
+
+                    <div class="text-cont">
+                        <h1>Wide Push-Up</h1>
+                        <h2>10 Reps</h2>
+                    </div>
+                    
+                    </div>
+                </li>
+
+                <li><div>
+
+                    <div class="text-cont">
+                        <h1>Diamond Push-Up</h1>
+                        <h2>15 Reps</h2>
+                    </div>
+                    
+                    </div>
+                </li>
+
+                <li><div>
+
+                    <div class="text-cont">
+                        <h1>Archer Push-Up</h1>
+                        <h2>8 Reps</h2>
+                    </div>
+                    
+                    </div>
+                </li>
+
+                <li>
+
+                    <a class="End" href="javascript:setTimeout(()=>{window. location = '../Completed-workout.html' },500);">Completed</a>
+
+                </li>
+
+                <li><a class="trainers" href="javascript:setTimeout(()=>{window. location = '/Trainers.html' },500);">Trainers</a></li>
+            </ul>
+
+            
+        </div>
+
+        <script>
+
+            var h1 = document.getElementsByTagName('h1')[0],
+                seconds = 0, minutes = 0, hours = 0,
+                t;
+            function add() {
+                seconds++;
+                if (seconds >= 60) {
+                    seconds = 0;
+                    minutes++;
+                    if (minutes >= 60) {
+                        minutes = 0;
+                        hours++;
+                    }
+                }
+    
+                h1.textContent = (hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
+
+                timer();
+            }
+            function timer() {
+                t = setTimeout(add, 1000);
+            }
+            timer();
+
+        </script>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+            
+        </script>
+
+        <script>
+
+            const buttonRight = document.getElementById('slideRight');
+            const buttonLeft = document.getElementById('slideLeft');
+
+            buttonRight.onclick = function() {
+            document.getElementById('container').scrollLeft += 400;
+            };
+            buttonLeft.onclick = function() {
+            document.getElementById('container').scrollLeft -= 650;
+            };
+
+        </script>
+
+    </body>
+</html>
