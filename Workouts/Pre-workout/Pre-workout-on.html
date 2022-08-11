@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="icon" type="image/x-icon" href="../../Media/onlysheesh_logo.png">
+        <link href="../../Media/circle-logo.png" rel="apple-touch-icon">
+        <link rel="stylesheet" href="../../CSS/style-pre-workout-on.css">
+        <title>OnlySheesh</title>
+    </head>
+    <body>
+
+        <section class="oversize">
+            <a href="" class="over">Open on Mobile &#128241;</a>
+        </section>
+        
+        <section class="showcase">
+
+            <header>
+                <h2 class="logo"><a href="../../Home.html">Onlysheesh</a></h2>
+                <div class="toggle"></div>
+            </header>
+
+            <div class="wk"> 
+
+                <h1>Push-Up Workout</h1>
+                <h4>x3Sets</h4>
+                <h5 class="primo">30Sec rest after every exercise</h5>
+                <h5 class="secondo">1Min rest after every Set</h5>
+                <div class="reps">
+                    <div><h2>Push-Up</h2><h3>20 Reps</h3></div>
+                    <div><h2>Triceps Extension</h2><h3>12 Sec</h3></div>
+                    <div><h2>Wide Push-Up</h2><h3>10 Reps</h3></div>
+                    <div><h2>Diamond Push-Up</h2><h3>15 Reps</h3></div>
+                    <div><h2>Archer Push-Up</h2><h3>8 Reps</h3></div>
+                    <a class="start-now" href="javascript:setTimeout(()=>{window. location = '../Workout-on.html' },500);">start now</a>
+                </div>
+            
+            </div>
+
+        </section>
+
+        <section id="pass1" class="pass">
+
+            <div class="Container1">
+                <h1>Access to the private workout of ...</h1>
+                <div class="Container2">
+                    <input id="passwordBox" placeholder="Password" type="password" onkeydown="if (event.keyCode == 13) document.getElementById('opn').click()"/>
+                    <div id="myBtn" class="opn" type="button" onclick="if (document.getElementById('passwordBox').value == 'PASSWORD') { 
+                        document.getElementById('pass1').classList.toggle('hide');   document.getElementById('pass1').style.display='none'; } 
+                        else {  alert('Invalid Password!'); password.setSelectionRange(0, password.value.length);   } ">Open</div>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="menu">
+
+            <div class="only-logo">
+                <a href="../../Home.html">
+                    <img src="../../Media/onlysheesh_logo.png" alt="Onlysheesh logo" width="25px">
+                </a>
+            </div>
+
+            <ul class="social">
+                <li><a href="https://www.instagram.com/onlysheesh/" target="_blank"><img src="../../Media/instagram-bianco.png" alt="Instagram logo" width="50px"></a></li>
+                <li><a href="https://www.youtube.com/channel/UClTfbpZOEPBJ__3P-0KufFQ" target="_blank"><img src="../../Media/youtube-bianco.png" alt="Youtube logo" width="50px"></a></li>
+                <li><a href="https://www.tiktok.com/@onlysheeshreal" target="_blank"><img src="../../Media/tiktok-bianco.png" alt="Tiktok logo"width="50px"></a></li>
+                <li><a href="https://t.me/Onlysheeshcommunity" target="_blank"><img src="../../Media/telegram-bianco.png" alt="Telegram logo"width="50px"></a></li>
+            </ul>
+
+            <ul class="menus">
+                <li><a href="javascript:setTimeout(()=>{window. location = '../../Home.html' },500);">Home</a></li>
+                <li><a href="javascript:setTimeout(()=>{window. location = '../../Workouts.html' },500);">Workouts</a></li>
+                <li><a href="javascript:setTimeout(()=>{window. location = '../../Programs.html' },500);">Programs</a></li>
+                <li><a href="javascript:setTimeout(()=>{window. location = '../../Exercises-academy.html' },500);">Exercises Academy</a></li>
+                <li><a href="javascript:setTimeout(()=>{window. location = '../../Trainers.html' },500);">Trainers</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+    </body>
+</html>
