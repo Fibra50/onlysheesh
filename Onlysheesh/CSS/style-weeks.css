@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: black;
+}
+* {
+    color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h2.logo {
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.logo a {
+    text-decoration: none;
+}
+
+.logos {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 8px;
+    margin-left: 5px;
+    text-shadow: 0 0 10px rgb(110, 103, 103);
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url('https://i.ibb.co/HrfVRcx/menu.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+    filter: invert(100%)
+}
+
+.toggle.active {
+    background: url('https://i.ibb.co/rt3HybH/close.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.only-logo {
+    position: absolute;
+    margin: 0;
+    top: 50px;
+    justify-content: center;
+    align-items: center;
+    filter: invert(100%);
+}
+
+.social {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    margin-right: 5px;
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+
+.social li a:hover {
+    transform: scale(0.5)  translateY(-15px);
+}
+
+.menu {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#111;
+}
+
+.menu ul.menus {
+    position: relative;
+    list-style: none;
+}
+
+.menus a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+
+.policy {
+    position: absolute;
+    bottom: 100px;
+    font-size: 5px;
+}
+
+.iubenda-nostyle {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+}
+
+.menu ul li a:hover {
+    color: rgb(0, 191, 255);
+}
+
+.showcase {
+    position: relative;
+    right: 0;
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    background: rgb(255, 255, 255);
+    color: #fff;
+    z-index: 2;
+    transition: 1.5s;
+} 
+
+.showcase.active {
+    right: 300px;
+}
+
+.lastwk {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.scrollmenu {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.slide1, .slide2, .slide3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px;
+    text-decoration: none;
+    width: 455px;
+    height: 245px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.slide1 {
+    background-image: url(/Media/sport.jpg);
+}
+
+.slide2 {
+    background-image: url(/Media/pull-up.jpg);
+    background-position:center;
+}
+
+.slide3 {
+    background-image: url(/Media/Dumbell.jpg);
+    background-position:center;
+}
+
+.slide1:hover, .slide2:hover, .slide3:hover {
+    transform: scale(0.95);
+}
+
+.slide1:active, .slide2:active, .slide3:active {
+    transform: scale(0.95);
+}
+
+.boxslide {
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.boxslide2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.level {
+    background-color: rgba(146, 146, 146, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+}
+
+h1.workout-name {
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+h2.workout-type {
+    text-align: left;
+    color: #fff;
+    font-size: 10px;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title h1 {
+    font-weight: 700;
+}
+
+.title p {
+    font-weight: 500;
+    opacity: 75%;
+    margin-top: -5px;
+}
+
+.wrapper{
+    margin-top: 80px;
+    margin-bottom: -70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_box{
+	background: #ffffff;
+    box-shadow: 0 0 50px #ccc;
+	position: relative;
+    align-items: center;
+	padding: 15px;
+	border-radius: 50px;
+	display: flex;
+}
+
+.search_box .search_btn{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #ffffff;
+    filter: invert(100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.search_box .input_search{
+	outline: none;
+	border: 0;
+	background: #000000;
+	border-radius: 50px;
+	padding: 15px 20px;
+	width: 60vw;
+	color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+@media(min-width: 515px) {
+    .showcase, .menu {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+        max-height: 100vh;
+        max-width: 100vw;
+    }
+
+    .oversize {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 90vh;
+        width: 100vw;
+    }
+    
+    .over {
+        text-decoration: none;
+        position: fixed;
+        bottom: 10px;
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 10px;
+        border-radius: 12px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        box-shadow: 0 0 50px #ccc;
+        position: relative;
+        font-weight: 500;
+        cursor: not-allowed;
+    }
+}
+
+@media(max-width: 515px) {
+    .oversize, .over {
+        display: none;
+    }
+    .showcase, .showcase header {
+        padding: 0;
+    }
+    .only-logo {
+        top: 25px;
+    }
+    .showcase header {
+        padding: 15px 20px;
+    }
+    section.text {
+        margin-top: 100px;
+    }
+    .workout1 {
+        margin-top: 0;
+    }
+    .slide1, .slide2, .slide3 {
+        width: 80vw;
+        height: 42vw;
+    }
+}
+
