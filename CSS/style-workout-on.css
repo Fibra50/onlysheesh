@@ -215,10 +215,10 @@ header {
 }
 
 video {
+    border-radius: 12px;
     object-fit: cover;
     width: 700px;
     height: 394px;
-    border-radius: 12px;
 }
 
 .text {

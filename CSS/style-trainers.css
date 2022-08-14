@@ -6,13 +6,19 @@
     display: flex;
     width: 175px;
     height: 218.75px;
-    background-image: url(https://drive.google.com/thumbnail?id=1Z6rWJWyGmuIJg9mxe_XSsn2CmjDMNvUB);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.contents {
+    display: none;
+}
+
 #content1 {
-    background-image: url(https://drive.google.com/thumbnail?id=1Z6rWJWyGmuIJg9mxe_XSsn2CmjDMNvUB);
+    background-image: url(/Media/Seivrtd.png);
+    border-bottom: 12px;
+    width: 175px;
+    height: 218.75px;
 }
 
 
@@ -193,9 +199,13 @@ body {
 }
 
 .separatore {
-    margin-top: 93.75px;
+    margin-top: 133.75px;
     padding: 10px;
+    width: 100%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     border-radius: 12px;
     background: linear-gradient(
         rgba(0, 0, 0, 0), 

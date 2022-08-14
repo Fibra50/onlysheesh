@@ -41,7 +41,7 @@
 }
 
 .slide1:active, .slide2:active, .slide3:active {
-    transform: scale(0.95);
+    transform: scale(0.95); 
 }
 
 
@@ -50,7 +50,7 @@ body {
     background-color: black;
 }
 * {
-    color: black;
+    color: rgb(0, 0, 0);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -79,6 +79,7 @@ h2.logo {
 
 .logo a {
     text-decoration: none;
+    color: black;
 }
 
 .logos {
@@ -277,6 +278,7 @@ section.text div {
     -ms-overflow-style: none;
     scrollbar-width: none;
     margin-bottom: 50px;
+    color: white;
 }
 
 .scrollmenu::-webkit-scrollbar {
@@ -289,6 +291,7 @@ section.text div {
     display: flex;
     align-items: center;
     margin-bottom: auto;
+    color: white;
 }
 
 .boxslide2 {
@@ -296,6 +299,7 @@ section.text div {
     align-items: flex-start;
     flex-direction: column;
     margin-top: auto;
+    color: white;
 }
 
 .level {
