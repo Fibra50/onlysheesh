@@ -15,6 +15,9 @@
     border-bottom: 12px;
     width: 175px;
     height: 218.75px;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 
