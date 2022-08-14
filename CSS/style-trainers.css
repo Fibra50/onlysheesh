@@ -24,6 +24,20 @@
     background-repeat:no-repeat;
 }
 
+#content2 {
+    background-image: url('/Media/Yarin.png');
+    border-bottom: 12px;
+    width: 175px;
+    height: 218.75px;
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat;
+}
+
 
 :root {
     --overlay-color: #7b8a91;
