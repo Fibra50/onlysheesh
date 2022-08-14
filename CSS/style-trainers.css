@@ -10,10 +10,6 @@
     background-repeat: no-repeat;
 }
 
-.contents {
-    display: none;
-}
-
 #content1 {
     background-image: url('/Media/Seivrtd.png');
     border-bottom: 12px;
@@ -172,7 +168,7 @@ body {
 
 .allenatori {
     width: 100vw;
-    margin-top: 80px;
+    margin-top: -300px;
     display: flex;
     flex-direction: column;
     align-items: center;
