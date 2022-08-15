@@ -8,6 +8,12 @@
     height: 218.75px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    box-shadow: 0 0 150px #ccc;
 }
 
 #content1 {
@@ -15,13 +21,6 @@
     border-bottom: 12px;
     width: 175px;
     height: 218.75px;
-    background-position:center; 
-    background-attachment:scroll; 
-    -o-background-size:cover; 
-    -moz-background-size:cover; 
-    -webkit-background-size:cover; 
-    background-size:cover; 
-    background-repeat:no-repeat;
 }
 
 #content2 {
@@ -29,13 +28,6 @@
     border-bottom: 12px;
     width: 175px;
     height: 218.75px;
-    background-position:center; 
-    background-attachment:scroll; 
-    -o-background-size:cover; 
-    -moz-background-size:cover; 
-    -webkit-background-size:cover; 
-    background-size:cover; 
-    background-repeat:no-repeat;
 }
 
 
@@ -65,7 +57,6 @@ body {
     padding: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     z-index: 2;
@@ -189,14 +180,17 @@ body {
 
 .allenatori {
     width: 100vw;
-    margin-top: -300px;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .tit {
     font-size: 30px;
+    position: relative;
+    z-index: 5;
 }
 
 .card-content {
