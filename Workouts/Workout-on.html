@@ -47,7 +47,7 @@
 
                     <div id="slidebox1" class="slidebox">
                         <div class="vid-box">
-                            <video src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
+                            <video class="video1" src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
                         </div>
                         <div class="text">
                             <div class="divtxt0">
@@ -60,7 +60,7 @@
 
                     <div id="slidebox2" class="slidebox">
                         <div class="vid-box">
-                            <video src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
+                            <video class="video2" src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
                         </div>
                         <div class="text">
                             <div class="divtxt0">
@@ -72,7 +72,7 @@
 
                     <div id="slidebox2" class="slidebox">
                         <div class="vid-box">
-                            <video src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
+                            <video class="video3" src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
                         </div>
                         <div class="text">
                             <div class="divtxt0">
@@ -84,7 +84,7 @@
 
                     <div id="slidebox2" class="slidebox">
                         <div class="vid-box">
-                            <video src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
+                            <video class="video4" src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
                         </div>
                         <div class="text">
                             <div class="divtxt0">
@@ -96,7 +96,7 @@
 
                     <div id="slidebox2" class="slidebox">
                         <div class="vid-box">
-                            <video src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
+                            <video class="video5" src="/Media/push-up.mp4" muted loop autoplay playsinline></video>
                         </div>
                         <div class="text">
                             <div class="divtxt0">
@@ -262,6 +262,92 @@
 
         </script>
 
+        <script>
+            const video = document.querySelector('.video1');
+            let isPaused = false;
+            const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio !== 1 && !video.paused) {
+                video.pause();
+                isPaused = true;
+                } else if (isPaused) {
+                video.play();
+                isPaused = false
+                }
+            });
+            }, {
+            threshold: 1
+            });
+            observer.observe(video);
+
+            const video2 = document.querySelector('.video2');
+            let isPaused2 = false;
+            const observer2 = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio !== 1 && !video2.paused) {
+                video2.pause();
+                isPaused = true;
+                } else if (isPaused) {
+                video2.play();
+                isPaused = false
+                }
+            });
+            }, {
+            threshold: 1
+            });
+            observer2.observe(video2);
+
+            const video3 = document.querySelector('.video3');
+            let isPaused3 = false;
+            const observer3 = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio !== 1 && !video3.paused) {
+                video3.pause();
+                isPaused = true;
+                } else if (isPaused) {
+                video3.play();
+                isPaused = false
+                }
+            });
+            }, {
+            threshold: 1
+            });
+            observer3.observe(video3);
+
+            const video4 = document.querySelector('.video4');
+            let isPaused4 = false;
+            const observer4 = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio !== 1 && !video4.paused) {
+                video4.pause();
+                isPaused = true;
+                } else if (isPaused) {
+                video4.play();
+                isPaused = false
+                }
+            });
+            }, {
+            threshold: 1
+            });
+            observer4.observe(video4);
+
+            const video5 = document.querySelector('.video5');
+            let isPaused5 = false;
+            const observer5 = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio !== 1 && !video5.paused) {
+                video5.pause();
+                isPaused = true;
+                } else if (isPaused) {
+                video5.play();
+                isPaused = false
+                }
+            });
+            }, {
+            threshold: 1
+            });
+            observer5.observe(video5);
+        </script>
 
     </body>
 </html>
