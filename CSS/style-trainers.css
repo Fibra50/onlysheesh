@@ -25,9 +25,12 @@
 }
 
 #content3 {
-    background-image: url('/Media/1.png');
+    background-image: url('/Media/Djons.png');
 }
 
+#content4 {
+    background-image: url('/Media/Reimer.jpg');
+}
 
 :root {
     --overlay-color: #7b8a91;
