@@ -18,16 +18,14 @@
 
 #content1 {
     background-image: url('/Media/square seivrtd.png');
-    border-bottom: 12px;
-    width: 175px;
-    height: 218.75px;
 }
 
 #content2 {
     background-image: url('/Media/Yarin.png');
-    border-bottom: 12px;
-    width: 175px;
-    height: 218.75px;
+}
+
+#content3 {
+    background-image: url('/Media/2.png');
 }
 
 
