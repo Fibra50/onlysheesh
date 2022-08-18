@@ -32,6 +32,10 @@
     background-image: url('/Media/Reimer.jpg');
 }
 
+#content5 {
+    background-image: url('/Media/Timothé.png');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
