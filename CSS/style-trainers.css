@@ -40,6 +40,10 @@
     background-image: url('/Media/Younes.webp');
 }
 
+#content7 {
+    background-image: url('/Media/Mirand.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
