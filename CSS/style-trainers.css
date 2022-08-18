@@ -17,23 +17,23 @@
 }
 
 #content1 {
-    background-image: url('/Media/square seivrtd.png');
+    background-image: url('/Media/square-seivrtd.webp');
 }
 
 #content2 {
-    background-image: url('/Media/Yarin.png');
+    background-image: url('/Media/Yarin.webp');
 }
 
 #content3 {
-    background-image: url('/Media/Djons.png');
+    background-image: url('/Media/Djons.webp');
 }
 
 #content4 {
-    background-image: url('/Media/Reimer.jpg');
+    background-image: url('/Media/Reimer.webp');
 }
 
 #content5 {
-    background-image: url('/Media/Timothé.png');
+    background-image: url('/Media/Timothé.webp');
 }
 
 :root {
