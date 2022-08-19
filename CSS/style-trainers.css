@@ -44,6 +44,14 @@
     background-image: url('/Media/Mirand.webp');
 }
 
+#content8 {
+    background-image: url('/Media/Alex.webp');
+}
+
+#content9 {
+    background-image: url('/Media/Jake.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
