@@ -52,6 +52,10 @@
     background-image: url('/Media/Jake.webp');
 }
 
+#content10 {
+    background-image: url('/Media/Leonid.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
@@ -238,10 +242,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    border-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     background: linear-gradient(
         rgba(0, 0, 0, 0), 
-        rgba(0, 0, 0, 0.314) 20%,
+        rgba(0, 0, 0, 0.314) 30%,
         black);
 }
 
