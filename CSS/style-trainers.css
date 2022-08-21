@@ -16,44 +16,52 @@
     box-shadow: 0 0 15px #ccc;
 }
 
-#content1 {
+#Seivrtd {
     background-image: url('/Media/square-seivrtd.webp');
 }
 
-#content2 {
+#Yarin {
     background-image: url('/Media/Yarin.webp');
 }
 
-#content3 {
-    background-image: url('/Media/Djons.webp');
-}
-
-#content4 {
-    background-image: url('/Media/Reimer.webp');
-}
-
-#content5 {
-    background-image: url('/Media/Timothé.webp');
-}
-
-#content6 {
-    background-image: url('/Media/Younes.webp');
-}
-
-#content7 {
-    background-image: url('/Media/Mirand.webp');
-}
-
-#content8 {
-    background-image: url('/Media/Alex.webp');
-}
-
-#content9 {
+#Jake-Portolese {
     background-image: url('/Media/Jake.webp');
 }
 
-#content10 {
+#Reimer {
+    background-image: url('/Media/Reimer.webp');
+}
+
+#Timothé-Bigé {
+    background-image: url('/Media/Timothé.webp');
+}
+
+#Younes-Oufqir {
+    background-image: url('/Media/Younes.webp');
+}
+
+#Mirand-Redzepi {
+    background-image: url('/Media/Mirand.webp');
+}
+
+#Alex-Nguen {
+    background-image: url('/Media/Alex.webp');
+}
+
+#Djons {
+    background-image: url('/Media/Djons.webp');
+}
+
+#Leonid-Aghasyan {
     background-image: url('/Media/Leonid.webp');
+}
+
+#Daisuke-Hiramatsu {
+    background-image: url('/Media/Daisuke.webp');
+}
+
+#Francisco-Rossi {
+    background-image: url('/Media/Francisco.webp');
 }
 
 :root {
