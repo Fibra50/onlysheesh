@@ -89,7 +89,9 @@ body {
     min-height: 100vh;
     padding: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     z-index: 2;
@@ -218,6 +220,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    justify-content:initial;
 }
 
 .tit {
@@ -264,6 +267,47 @@ body {
 
 .separatore p {
     font-size: 0.9em;
+}
+
+.vertical-divider {
+    height: 20px;
+    width: 1px;
+    padding: 0;
+    background-color: black;
+}
+
+.next-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.699);
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: 500;
+    box-shadow: 3px 6px 10px rgba(17, 17, 17, 0.567);
+}
+
+.next-page a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.numb {
+    margin: 5px;
+    padding: 5px;
+}
+
+#numfix {
+    color: rgba(17, 17, 17, 0.707);
 }
 
 @media(min-width: 515px) {
