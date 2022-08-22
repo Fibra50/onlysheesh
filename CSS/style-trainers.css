@@ -68,6 +68,10 @@
     background-image: url('/Media/Antonio.webp');
 }
 
+#Mamache-Idir {
+    background-image: url('/Media/Mamache.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
@@ -240,7 +244,7 @@ body {
     padding: 0;
     border-radius: 12px;
     text-decoration: none;
-    transition: all 0.25s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
 }
 
