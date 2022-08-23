@@ -72,6 +72,10 @@
     background-image: url('/Media/Mamache.webp');
 }
 
+#Yair-Drory {
+    background-image: url('/Media/Yair.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
