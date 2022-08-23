@@ -76,6 +76,10 @@
     background-image: url('/Media/Yair.webp');
 }
 
+#Daniele-Piras {
+    background-image: url('/Media/Daniele.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
