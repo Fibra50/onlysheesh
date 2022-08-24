@@ -80,6 +80,14 @@
     background-image: url('/Media/Daniele.webp');
 }
 
+#Daniele-Crespi {
+    background-image: url('/Media/Daniele\ Crespi.webp');
+}
+
+#Andrea-Garofalo {
+    background-image: url('/Media/Andrea.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
