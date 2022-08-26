@@ -88,6 +88,10 @@
     background-image: url('/Media/Andrea.webp');
 }
 
+#Michael-Janssen {
+    background-image: url('/Media/Michael-Janssen.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
