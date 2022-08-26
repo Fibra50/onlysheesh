@@ -92,6 +92,10 @@
     background-image: url('/Media/Michael-Janssen.webp');
 }
 
+#Youssef-Benlahcen {
+    background-image: url('/Media/square-Youssef-Benlahcen.webp');
+}
+
 :root {
     --overlay-color: #7b8a91;
 }
