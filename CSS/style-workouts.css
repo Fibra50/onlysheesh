@@ -1,37 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-.conteiner{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.comingsoon, .trainers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100vw;
-    margin: 15px;
-}
-
-.comingsoon a, .trainers a {
-    text-decoration: none;
-    position: fixed;
-    bottom: 10px;
-    width: fit-content;
-    height: fit-content;
-    padding: 5px 10px;
-    border-radius: 12px;
-    color: rgb(0, 0, 0);
-    background-color: white;
-    box-shadow: 0 0 50px #ccc;
-    position: relative;
-    font-weight: 500;
-}
 
 
 .slide1 {
@@ -48,33 +16,6 @@
     background-position:center;
 }
 
-.slide1, .slide2, .slide3 {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 20px;
-    padding: 14px;
-    text-decoration: none;
-    width: 455px;
-    height: 245px;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: all 0.25s ease;
-}
-
-.slide1:hover, .slide2:hover, .slide3:hover {
-    transform: scale(0.95);
-}
-
-.slide1:active, .slide2:active, .slide3:active {
-    transform: scale(0.95);
-}
 
 
 
@@ -89,19 +30,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.workout1 {
-    position: relative;
-    align-items: center;
-    width: 100%;
-    padding: 0;
-    margin-top: 100px;
-}
-
-.workout2 {
-    position: relative;
-    align-items: center;
-}
-
 h2.logo {
     color: black;
     text-transform: uppercase;
@@ -112,14 +40,6 @@ h2.logo {
 .logo a {
     text-decoration: none;
     color: black;
-}
-
-.logos {
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-size: 8px;
-    margin-left: 5px;
-    text-shadow: 0 0 10px rgb(110, 103, 103);
 }
 
 .toggle {
@@ -258,154 +178,83 @@ header {
     right: 300px;
 }
 
-section.text {
-    margin-top: 200px;
-    position: relative;
+.text, .wk {
+    display: flex;
     flex-direction: column;
-    align-items: top;
-    display: inline-flex;
-    justify-content: top;
+    align-items: center;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
-section.text div {
+.text-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.types {
+    background: linear-gradient(99.09deg, rgba(0, 240, 255, 0.5) 0%, rgba(5, 0, 255, 0.5) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 60px;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 8px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
     justify-content: center;
     text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);  
+}
+
+.wk {
+    margin-top: 15px;
+    text-decoration: none;
 }
 
 .text h1 {
-    width: 100%;
-    padding: 0px;
-    margin-top: 0px;
-    color: black;
-}
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
 
-.Explore {
-    box-shadow: 0 0 50px #ccc;
-    display: inline-block;
-    font-size: 1em;
-    background: #fff;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: #111;
-    margin-top: 10px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.2s;
-    border-radius: 12px;
-    transition-duration: 0.5s;
 }
 
-.Explore:hover {
-    letter-spacing: 6px;
-    color: rgb(0, 191, 255);
+.wk img {
+    width: 1280px;
+    height: 720px;
+    max-width: 90vw;
+    max-height: 50.625vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #7b8a91;
-    mix-blend-mode: overlay;
-}
+.wk-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
 
-.scrollmenu {
-    margin-top: 20px;
-    overflow: auto;
-    white-space: nowrap;
-    max-width: 100vw;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    margin-bottom: 50px;
-}
-
-.scrollmenu::-webkit-scrollbar {
-    display: none;
-}
-
-.slide1, .slide2, .slide3 {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 20px;
-    padding: 14px;
-    text-decoration: none;
-    width: 455px;
-    height: 245px;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: all 0.25s ease;
-}
-
-
-.slide1:hover, .slide2:hover, .slide3:hover {
-    transform: scale(0.95);
-}
-
-.slide1:active, .slide2:active, .slide3:active {
-    transform: scale(0.95);
-}
-
-.boxslide {
     display: flex;
     align-items: center;
-    margin-bottom: auto;
-}
-
-.boxslide2 {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-top: auto;
-}
-
-.level {
-    background-color: rgba(146, 146, 146, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 8px;
-    font-size: 10px;
-    color: white;
-    padding: 5px;
-}
-
-h1.workout-name {
-    text-align: left;
-    color: white;
-    font-size: 15px;
     text-transform: uppercase;
-    text-shadow: 0 0 2px rgb(0, 0, 0);
 }
 
-h2.workout-type {
-    text-align: left;
-    color: #fff;
-    font-size: 10px;
-    text-shadow: 0 0 2px rgb(0, 0, 0);
-}
-
-.link {
-    width: 100%;
-    height: 100%;
-}
-
-h1.tit {
-    color: rgb(0, 0, 0);
-}
-
-.tit2 {
-    color: black;
-}
 
 @media(min-width: 515px) {
     .showcase, .menu {
@@ -460,13 +309,6 @@ h1.tit {
     }
     section.text {
         margin-top: 100px;
-    }
-    .workout1 {
-        margin-top: 0;
-    }
-    .slide1, .slide2, .slide3 {
-        width: 325px;
-        height: 175px;
     }
 }
 
